@@ -3,24 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/myportfolio/assets/style.css">
 </head>
 
 <header>
-    <a href="About Me">About Me</a>
-    <a href="Work">Work</a>
-    <a href="Contact">Contact</a>
-    <a href="Resume">Resume</a>
+    <style>
+        a:link {
+            color: whitesmoke;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: whitesmoke;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: whitesmoke;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: whitesmoke;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
+
+    <div class="navigation">
+        <a href="#about-me">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
+    </div>
 </header>
 
 <body>
-    <section>
-        <h1>About Me</h1>
+    <section class="section-wrapper">
+        <div class="header-wrapper" id="about-me">
+            <h1>About Me</h1>
+            <p>Shed crochets flexitarian, swag celiac deep v selvage slow-carb. Bespoke chambray fixie cray, four loko vinyl church-key pug. Kogi photo booth wolf, thundercats cardigan truffaut twee pabst bushwick marfa art party before they sold out. Forage vegan seitan messenger bag. PBR&B flexitarian umami, narwhal brooklyn biodiesel shabby chic franzen. Distillery shoreditch direct trade, tattooed cliche thundercats messenger bag wayfarers pitchfork offal meh leggings bushwick. Chicharrones pitchfork VHS kale chips hella, sustainable asymmetrical williamsburg readymade stumptown.</p>
+        </div>
     </section>
-    <section>
+    <section class="section-wrapper" id="work">
         <h1>Work</h1>
+        <div class="work-wrapper">
+            <article>
+                <img src="/myportfolio/assets/portfolio image.jpg">
+            </article>
+            <article>
+                <img src="/myportfolio/assets/portfolio image.jpg">
+            </article>
+            <article>
+                <img src="/myportfolio/assets/portfolio image.jpg">
+            </article>
+            <article>
+                <img src="/myportfolio/assets/portfolio image.jpg">
+            </article>
+            <article>
+                <img src="/myportfolio/assets/portfolio image.jpg">
+            </article>
+            <article>
+                <img src="/myportfolio/assets/portfolio image.jpg">
+            </article>
+        </div>
     </section>
-    <section>
+    <section class="section-wrapper-head" id="contact">
         <h1>Contact</h1>
+        <div class="contact-wrapper">
+            <p class="contact-item">720.338.9805</p>
+            <p class="contact-item">alexphilo91@hotmail.com</p>
+            <p class="contact-item"><a href="https://github.com/alexlofton?tab=repositories">GitHub</a>&emsp13;</p>
+            <p class="contact-item"><a href="https://open.spotify.com/playlist/547sgybfdAFDuj6BXZPaju?si=ce9b60b6cc4a4d32">Now Playing</a></p>
+        </div>
     </section>
 </body>
+
+<footer>
+    Thank you for visiting   
+</footer>

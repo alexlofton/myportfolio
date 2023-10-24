@@ -1,0 +1,130 @@
+body {
+    position:relative;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-around;
+    border-color: black;
+    background-color: black;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.section-wrapper {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px 5px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.section-wrapper-head {
+        border-style: solid;
+        border-color: black;
+        border-width: 5px 5px 0px 5px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: lightgray;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.work-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    column-gap: 25px;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 25px;
+    background-color: lightgray;
+}
+
+.contact-item {
+    color: darkolivegreen;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+article {
+    border-width: 5%;
+    border-style: solid;
+    border-color: black;
+    flex-basis: 300px;
+}
+
+h1 {
+    text-align: left;
+    border-width: 5%;
+    border-style: solid;
+    border-color: black;
+    width: 20%;
+    height: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    border: 20px;
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+}
+/*Medium screens*/
+@media all and (max-width: 800px){
+    .navigation {
+        justify-content: space-around;
+    }
+}
+
+/*Small screens*/
+@media all and (max-width: 500px) {
+    .navigation {
+        flex-direction: column;
+        }
+    }
