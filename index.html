@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <header>
-    <h2>alex lofton</h2><img src="./assets/images/portfolio-avatar2.jpg" class="avatar">
+    <h1>alex lofton</h1><img src="./assets/images/portfolio-avatar2.jpg" class="avatar">
     
     <style>
         a:link {
@@ -17,13 +18,14 @@
         }
 
         a:visited {
-            color: whitesmoke;
+            
             background-color: transparent;
             text-decoration: none;
+            color: whitesmoke;
         }
 
         a:hover {
-            color: whitesmoke;
+            color: rgba(97, 197, 230, 0.886);
             background-color: transparent;
             text-decoration: none;
         }
@@ -46,23 +48,24 @@
 
 <body>
     <section class="section-wrapper">
+        <h2 class="black heading">About Me</h2>
         <div class="header-wrapper" id="about-me">
-            <h1>About Me</h1>
             <p>Shed crochets flexitarian, swag celiac deep v selvage slow-carb. Bespoke chambray fixie cray, four loko vinyl church-key pug. Kogi photo booth wolf, thundercats cardigan truffaut twee pabst bushwick marfa art party before they sold out. Forage vegan seitan messenger bag. PBR&B flexitarian umami, narwhal brooklyn biodiesel shabby chic franzen. Distillery shoreditch direct trade, tattooed cliche thundercats messenger bag wayfarers pitchfork offal meh leggings bushwick. Chicharrones pitchfork VHS kale chips hella, sustainable asymmetrical williamsburg readymade stumptown.</p>
         </div>
     </section>
 
     <section class="section-wrapper" id="work">
-        <h1>Work</h1>
-        <div class="work-wrapper">
+        <h2 class="black heading">Work</h2>
+        <div>
             <article class="hover-state">
+                <img src="./assets/images/Screenshot Horiseon 1.png" alt="code refractor project" title="Code Refractor Project"/>
                 <div class="title">
                     <a href="https://github.com/alexlofton/hw-01-code-refractor">
-                        <img src="./assets/images/Screenshot Horiseon 1.png" alt="code refractor project" title="Code Refractor Project"/>
                         Code Refractor Project
                     </a>
                 </div>
             </article>
+            <div class="work-wrapper" class="heading">
             <article>
                 <img src="./assets/images/portfolio-stock.jpg">
             </article>
@@ -75,13 +78,11 @@
             <article>
                 <img src="./assets/images/portfolio-stock.jpg">
             </article>
-            <article>
-                <img src="./assets/images/portfolio-stock.jpg">
-            </article>
+            </div>
         </div>
     </section>
     <section class="section-wrapper-foot" id="contact">
-        <h1>Contact</h1>
+        <h2 class="heading">Contact</h2>
         <div class="contact-wrapper">
             <p>720.338.9805</p>
             <p><a href="mailto:alexlofton91@hotmail.com">alexlofton91@hotmail.com</a></p>
